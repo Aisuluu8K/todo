@@ -19,9 +19,9 @@ from main.views import homepage, homework
 
 
 urlpatterns = [
-    # path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
     #path('', homepage, name="HOME"),
     # path('Web-texnologe/', homework, name="HOMEWORK"),
-    #path('', homework, name="HOMEWORK"),
+    path('', homework, name="HOMEWORK"),
    
 ]
